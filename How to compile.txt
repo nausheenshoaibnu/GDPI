@@ -1,0 +1,2 @@
+nvcc -o OutputFile main.cu kmp_gpu.cu rk_gpu.cu -lpcap -lpthread
+sudo ./OutputFile
